@@ -1,26 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
   <title>ED-PASS</title>
 
   <style>
     html, body {
       margin: 0;
       padding: 0;
+      width: 100%;
       background: white;
     }
 
-    img {
+    .page {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .page img {
       display: block;
       width: 100%;
       height: auto;
-      margin: 0 auto;
+      object-fit: contain;
     }
   </style>
 </head>
 
 <body>
-  <img src="ED-PASS.jpeg" alt="ED-PASS">
+
+  <div class="page">
+    <img src="ED-PASS.jpeg" alt="ED-PASS">
+  </div>
+
 </body>
+
 </html>
